@@ -1,0 +1,75 @@
+/**  ====== DEFAULT CSS ======**/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/**  ====== DEFAULT CSS ======**/
+
+body{
+	color: #a9a9a9;
+	font-size: 15px;
+	line-height: 1.6;
+}
+section.section-padding{
+	padding: 80px 20px;
+}
+
+.collapse-bg{
+	background-image: url("../images/cyberpunk.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+}
+
+h2.section-title{
+	font-weight: 700;
+	color: #333333;
+}
+
+h2.section-title span{
+	color: #1B9CFC;
+}
+.collapse-padding{
+	padding: 30px 50px;
+}
+
+.styled-faq .panel-default>.panel-heading {
+    background: none;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+}
+
+.styled-faq .panel .panel-collapse .panel-body {
+    border: none;
+}
+
+.styled-faq .panel-group .panel {
+    border-radius: 0;
+    box-shadow: 0 0 0;
+    margin-bottom: 18px;
+}
+
+.styled-faq .panel .panel-heading h4 a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.styled-faq .panel .panel-heading h4 a i.fa {
+    float: right;
+    font-size: 160%;
+    line-height: 16px;
+	display: none;
+}
+
+.styled-faq .panel .panel-heading h4 a[aria-expanded=true] i.fa.fa-angle-down {
+    display: block;
+}
+.styled-faq .panel .panel-heading h4 a[aria-expanded=false] i.fa.fa-angle-up {
+    display: block;
+}
